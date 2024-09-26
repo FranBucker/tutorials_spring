@@ -55,6 +55,6 @@ public class EmployeeController {
 
     @ModelAttribute
     public void addAttributes(final Model model) {
-        model.addAttribute("msg", "Welcome to the Netherlands!");
+        model.addAttribute("msg", "Bienvenido a la empresa!!");
     }
 }
