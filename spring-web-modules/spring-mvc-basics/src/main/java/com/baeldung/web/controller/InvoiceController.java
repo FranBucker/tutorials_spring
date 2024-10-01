@@ -35,8 +35,9 @@ public class InvoiceController {
         if (result.hasErrors()) {
             return "error";
         }
+
         double cantidad = invoice.getCantidad();
-        int porcentaje = invoice.getPorcentajeRetencion();
+        double porcentaje = invoice.getPorcentajeRetencion();
         double diferenciaPorcentajeCien = 100 - porcentaje;
         double divisorParaCalculo = diferenciaPorcentajeCien/100;
         double cantidadSinRetencion = cantidad * divisorParaCalculo;

@@ -9,14 +9,14 @@ public class Invoice {
     private long idFactura;
     private String concepto;
     private double cantidad;
-    private int porcentajeRetencion;
+    private double porcentajeRetencion;
     private String fechaFactura;
 
     public Invoice() {
         super();
     }
 
-    public Invoice(final long idFactura, final String concepto, final double cantidad, final int porcentajeRetencion, final String fechaFactura) {
+    public Invoice(final long idFactura, final String concepto, final double cantidad, final double porcentajeRetencion, final String fechaFactura) {
         this.idFactura = idFactura;
         this.concepto = concepto;
         this.cantidad = cantidad;
@@ -48,11 +48,11 @@ public class Invoice {
         this.cantidad = cantidad;
     }
 
-    public int getPorcentajeRetencion() {
+    public double getPorcentajeRetencion() {
         return porcentajeRetencion;
     }
 
-    public void setPorcentajeRetencion(final int porcentajeRetencion) { this.porcentajeRetencion = porcentajeRetencion; }
+    public void setPorcentajeRetencion(final double porcentajeRetencion) { this.porcentajeRetencion = porcentajeRetencion; }
 
     public String getFechaFactura() {
         return fechaFactura;

@@ -19,7 +19,7 @@
 		</tr>
 		<tr>
 			<td>Porcentaje de Retención :</td>
-			<td>${porcentajeRetencion}</td>
+			<td>${porcentajeRetencion}%</td>
 		</tr>
 
 		<tr>

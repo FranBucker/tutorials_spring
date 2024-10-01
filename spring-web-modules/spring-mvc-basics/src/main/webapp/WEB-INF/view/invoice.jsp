@@ -24,7 +24,7 @@
 			</tr>
 			<tr>
             	<td><form:label path="fechaFactura">Fecha de la factura</form:label></td>
-            	<td><form:input path="fechaFactura" /></td>
+            	<td><form:input path="fechaFactura" type="date" /></td>
             </tr>
 			<tr>
 				<td><input type="submit" value="Registrar" /></td>
